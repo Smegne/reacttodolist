@@ -1,0 +1,108 @@
+body{
+    background-color: aqua;
+}
+/* Basic styles for the Todo App */
+.todo-container {
+    border: 2px solid white;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .input-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .input-field {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .todo-list {
+    max-width: 400px;
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .todo-item {
+    object-fit: fill;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .task-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    cursor: pointer;
+  }
+  
+  .task-text.completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .edit-btn, .delete-btn {
+   
+    background-color: #f44336;
+    background-size: 20px 20px;
+
+  }
+  .edit-btn{
+    background-color: #12cc50;
+  }
+  .edit-btn:hover{
+    background-color: #2196F3;
+  }
+  
+   .delete-btn:hover {
+    background-color: hsl(4, 88%, 37%);
+  }
+  
+  .update-btn {
+    background-color: #2196F3;
+  }
+  
+  .cancel-btn {
+    background-color: #FF9800;
+  }
+  
+  .add-btn {
+    background-color: #4CAF50;
+  }
+  
